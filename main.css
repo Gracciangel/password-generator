@@ -58,3 +58,32 @@ text-align: center;
 .span:hover{
     cursor: pointer;
 }
+.userName{
+    background-color: yellow;
+}
+.info{
+    display:block ;
+    background-color: rgba(255, 255, 0, 0.63);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border: 1px solid black;
+    margin: 1% 16%;
+    position: absolute;
+    opacity: 80%;
+}
+@media(max-width: 600px){
+   
+    .form{
+        display: flex;
+        direction: column;
+        margin: 1rem 5%;
+    }
+    .titleChange{
+        display: flex;
+        flex-direction: column;
+    }
+    .userName{
+        margin: 0 5%;
+    }
+}
